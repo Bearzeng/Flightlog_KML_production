@@ -13,12 +13,14 @@ _________________________________________________________________________"""
 
 import csv
 import simplekml
+import os
+import subprocess
 
 
 def take_deg(arg1):
     var1 = arg1.replace("deg", "")
     var2 = float(var1)
-    return var2 
+    return var2
 
 class FlightLine:
 
@@ -34,7 +36,7 @@ class FlightLine:
         self.altitude = altitude
 
     def show_all(self):
-        
+
         print("Flight line number: {}".format(self.flight_num))
         print("Description: {}".format(self.description))
         print("Start latitude: {}".format(self.start_lat))
@@ -44,7 +46,7 @@ class FlightLine:
         print("Altitude: {}".format(self.altitude))
 
     def make_dict(self):
-        
+
         {"Description" : self.description, "Flight line number": self.flight_num,
          "Start longitude" : self.start_long, "Start latitude" : self.start_lat,
          "End latitude" : self.end_lat, "End longitude" : self.end_long, "Altitude" : self.altitude }
@@ -64,23 +66,55 @@ class FlightLine:
         ls.style.linestyle.width = 5
         ls.style.linestyle.color = simplekml.Color.blue
         ls.altitudemode = simplekml.AltitudeMode.relativetoground
-        
-        
 
-        
+
+
+
+
+
 counter = 1
 
+
+# Get CWD and finds file with .CSV extension to be open
+file_list = os.listdir()
+cur_dir = os.getcwd()
+csv1 = []
+flight_name = ''
+
+for file in file_list:
+    if file.endswith(".csv"):
+        csv1.append(file)
+
+
+
+csv2 = csv1[0]
+
+
+# Checks for one than one CSV file in directory. Exits if found.
+if len(csv1) > 1:
+	print("More than one CSV file detected. Please ensure only one CSV is in the directory")
+	print(csv1)
+	os.system("pause")
+	exit()
+
+flight_name = (csv1[0])
+flight_name = flight_name[:-4]
+
+
+os.system("pause")
+
+
 # open and read csv file
-with open('"""INSET_FILE_NAME_HERE""".csv', 'r') as csv_file:
+with open(csv2, 'r') as csv_file:
     csv_reader = csv.reader(csv_file)
-    
+
     # create list to add class instance values
     flightlines = []
 
     #create KML file
     kml = simplekml.Kml()
 
-    # loop through and find all start and end tags and write to a CSV    
+    # loop through and find all start and end tags and write to a CSV
     for line in csv_reader:
         if "|START|" in line:
             # create list "start_key" of header
@@ -98,24 +132,24 @@ with open('"""INSET_FILE_NAME_HERE""".csv', 'r') as csv_file:
             new_end_value = end_value[-1]
             line = FlightLine(new_start_value[1], counter, take_deg(new_start_value[3]), take_deg(new_start_value[4]),
                               take_deg(new_end_value[3]), take_deg(new_end_value[4]), new_end_value[5])
-            
+
             #line.show_all()
             # add coords/line to kml file
             line.make_kml(line.altitude, line.description, line.start_long, line.start_lat, line.end_long, line.end_lat)
             counter += 1
             flightlines.append(line)
-            
-    
-    
+
+    # Save KML file under flight name
+
     #save KML file
-    kml.save("Flightlines.kml")
+    kml.save(flight_name + ".kml")
 
     #open a text file and save lines in "flightlines[]"
-    text_file = open("flightline_output.txt", "a")
-    
+    text_file = open(flight_name + "_output.txt", "a")
+
     for line in flightlines:
         text_file.write(line.make_txtprint())
-        
+
 
     #close the files
     text_file.close()
