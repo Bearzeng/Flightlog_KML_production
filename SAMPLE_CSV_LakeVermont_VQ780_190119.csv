@@ -1,0 +1,1085 @@
+
+PROJECT REPORT
+This report has been generated automatically on 2019-01-19 11:28:58.236 by RiACQUIRE ALS v2.3.4.175852 x86_64.
+=PROJECT=
+|DATA|
+Name,Start (System),End (System)
+LakeVermont_VQ780_190119,2019-01-19 09:31:18,
+
+==SYSTEM==
+|DEVICES|
+Name,Type,Serial Number
+INS-GPS 1,Applanix POS AV/LV/MV,9233
+Scanner 1,VQ-780i,S2222940
+Camera left,RIEGL-CS6,YC030228
+
+==LASER CONFIGURATIONS==
+|DATA|
+Name,Type,Scanner SN,Channel No.,Height,Speed AGL,Scan Mode,Sequence Count,Standstill Multiplier,Log Mode / Meas Prog,Measurement Output,Monitor Step Multiplier,WFM Filter Mask,MTA Method,MTA Zone,NRS Level,PRR Alternation,High Sensitivity,Near Range Enable,Laser Beam Divergence,Line Start,Line Stop,Line Increment,Line Speed,Frame Start,Frame Stop,Frame Increment
+1000m 135kn 1000 kHz (100%) 200lps Scanner 1,VQ-780i,S2222940,1,1000.000m,69.45,Line,0,1,1000 kHz (100%),RANGE ONLY,40,-1,DEM,1,0,0,OFF,OFF,0,60.000deg,120.000deg,0.0180deg,200.00,0.000deg,0.000deg,0.0000deg
+ground test,VQ-780i,S2222940,1,0.000m,0.00,Line,0,1,1000 kHz (1%),RANGE ONLY,40,0,DEM,1,0,0,OFF,OFF,0,60.000deg,120.000deg,0.0060deg,66.67,0.000deg,0.000deg,0.0000deg
+
+==CAMERA CONFIGURATIONS==
+|DATA|
+Name,Type,Trigger Mode,Preview Interval,Interval,Distance,Overlap,Auto Logging
+POSTrack,RIEGL-CS6,External High,1.000s,1.000s,1.000m,30%,1
+
+==ATMOSPHERIC CONDITIONS==
+|DATA|
+Date/Time,Height,Temperature @Height,Rel. Humidity @Height,Pressure @MSL
+2019-01-18 23:32:34 / 84754.000,220.0m,27.0°C,70.0%,1016.0hPa
+
+==POS DATA==
+|FILES|
+Device,File Name,File Size,Total Duration,Movement Duration,Standstill Duration,Distance
+INS-GPS 1,190118_233310_INS-GPS_1.mon.igs,20.00MB,0.000s / 0s,0.000s / 0s,0.000s / 0s,0.000m
+
+==RECORDS==
+===Record001_Line9===
+|FILES|
+Device,File Name,File Size,File Status,Configuration
+Scanner 1,190119_004633_Scanner_1.rxp,1.45GB,,1000m 135kn 1000 kHz (100%) 200lps Scanner 1
+Camera left,190119_004639.eif,3.86kB / 1.50GB,,POSTrack
+
+|START|
+Device,File Name,Date/Time,Latitude,Longitude,Altitude,Roll,Pitch,Yaw,Speed,Distance
+Scanner 1,190119_004633_Scanner_1.rxp,2019-01-19 00:46:33 / 2793.533,-22.41696618deg,148.42786863deg,1196.767m,0.727deg,1.730deg,214.281deg,132.366kn,283768.156m
+Camera left,190119_004639.eif,2019-01-19 00:46:39 / 2799.897,-22.41997163deg,148.42514255deg,1191.636m,1.789deg,3.251deg,219.599deg,135.191kn,284203.594m
+
+|END|
+Device,File Name,Date/Time,Latitude,Longitude,Altitude,Roll,Pitch,Yaw,Speed,Distance
+Scanner 1,190119_004633_Scanner_1.rxp,2019-01-19 00:48:24 / 2904.698,-22.46898396deg,148.37919540deg,1187.143m,-0.569deg,3.003deg,216.614deg,133.320kn,291405.156m
+Camera left,190119_004639.eif,2019-01-19 00:48:25 / 2905.692,-22.46945348deg,148.37876039deg,1186.175m,1.177deg,3.362deg,216.122deg,133.411kn,291473.906m
+
+|CAMERA TRIGGER|
+Device,Triggered Images,Lost Exposure Pulses,Lost Images
+Camera left,14,0,0
+
+===Record002_Line1===
+|FILES|
+Device,File Name,File Size,File Status,Configuration
+Scanner 1,190119_005124_Scanner_1.rxp,898.37MB,,1000m 135kn 1000 kHz (100%) 200lps Scanner 1
+Camera left,190119_005131.eif,2.30kB / 878.32MB,,POSTrack
+
+|START|
+Device,File Name,Date/Time,Latitude,Longitude,Altitude,Roll,Pitch,Yaw,Speed,Distance
+Scanner 1,190119_005124_Scanner_1.rxp,2019-01-19 00:51:24 / 3084.803,-22.47897088deg,148.40221207deg,1192.496m,4.384deg,4.937deg,322.683deg,119.852kn,301882.750m
+Camera left,190119_005131.eif,2019-01-19 00:51:31 / 3091.076,-22.47638049deg,148.39967163deg,1186.518m,-0.180deg,4.364deg,321.383deg,122.400kn,302271.062m
+
+|END|
+Device,File Name,Date/Time,Latitude,Longitude,Altitude,Roll,Pitch,Yaw,Speed,Distance
+Scanner 1,190119_005124_Scanner_1.rxp,2019-01-19 00:52:31 / 3151.130,-22.45094800deg,148.37446928deg,1199.978m,-1.272deg,3.288deg,320.235deg,126.854kn,306100.344m
+Camera left,190119_005131.eif,2019-01-19 00:52:32 / 3152.242,-22.45047670deg,148.37397832deg,1198.370m,-0.248deg,2.599deg,319.750deg,127.241kn,306172.969m
+
+|CAMERA TRIGGER|
+Device,Triggered Images,Lost Exposure Pulses,Lost Images
+Camera left,8,0,0
+
+===Record003_Line2===
+|FILES|
+Device,File Name,File Size,File Status,Configuration
+Scanner 1,190119_005533_Scanner_1.rxp,1.86GB,,1000m 135kn 1000 kHz (100%) 200lps Scanner 1
+Camera left,190119_005539.eif,3.88kB / 1.54GB,,POSTrack
+
+|START|
+Device,File Name,Date/Time,Latitude,Longitude,Altitude,Roll,Pitch,Yaw,Speed,Distance
+Scanner 1,190119_005533_Scanner_1.rxp,2019-01-19 00:55:33 / 3333.264,-22.44098024deg,148.37462509deg,1185.097m,2.025deg,4.362deg,132.675deg,111.385kn,317081.469m
+Camera left,190119_005539.eif,2019-01-19 00:55:39 / 3339.660,-22.44342751deg,148.37701797deg,1184.879m,1.313deg,3.971deg,132.682deg,111.199kn,317447.156m
+
+|END|
+Device,File Name,Date/Time,Latitude,Longitude,Altitude,Roll,Pitch,Yaw,Speed,Distance
+Scanner 1,190119_005533_Scanner_1.rxp,2019-01-19 00:57:51 / 3471.112,-22.49482228deg,148.42794553deg,1190.989m,1.758deg,4.352deg,132.103deg,113.796kn,325184.656m
+Camera left,190119_005539.eif,2019-01-19 00:57:50 / 3470.607,-22.49462475deg,148.42775214deg,1190.617m,1.833deg,4.433deg,131.931deg,113.873kn,325155.156m
+
+|CAMERA TRIGGER|
+Device,Triggered Images,Lost Exposure Pulses,Lost Images
+Camera left,14,0,0
+
+===Record004_Line6===
+|FILES|
+Device,File Name,File Size,File Status,Configuration
+Scanner 1,190119_005939_Scanner_1.rxp,1.80GB,,1000m 135kn 1000 kHz (100%) 200lps Scanner 1
+Camera left,190119_005945.eif,4.57kB / 1.80GB,,POSTrack
+
+|START|
+Device,File Name,Date/Time,Latitude,Longitude,Altitude,Roll,Pitch,Yaw,Speed,Distance
+Scanner 1,190119_005939_Scanner_1.rxp,2019-01-19 00:59:39 / 3579.124,-22.47853449deg,148.45130325deg,1194.186m,0.148deg,1.021deg,320.548deg,134.986kn,331676.938m
+Camera left,190119_005945.eif,2019-01-19 00:59:45 / 3585.522,-22.47565589deg,148.44832213deg,1195.613m,-0.665deg,3.374deg,324.173deg,136.007kn,332119.500m
+
+|END|
+Device,File Name,Date/Time,Latitude,Longitude,Altitude,Roll,Pitch,Yaw,Speed,Distance
+Scanner 1,190119_005939_Scanner_1.rxp,2019-01-19 01:01:54 / 3714.869,-22.41678878deg,148.39009122deg,1193.553m,1.361deg,2.555deg,323.467deg,128.938kn,340977.219m
+Camera left,190119_005945.eif,2019-01-19 01:01:55 / 3715.908,-22.41633948deg,148.38964990deg,1194.547m,2.823deg,2.232deg,323.247deg,129.856kn,341044.656m
+
+|CAMERA TRIGGER|
+Device,Triggered Images,Lost Exposure Pulses,Lost Images
+Camera left,17,0,0
+
+===Record005_Line3===
+|FILES|
+Device,File Name,File Size,File Status,Configuration
+Scanner 1,190119_010353_Scanner_1.rxp,1.92GB,,1000m 135kn 1000 kHz (100%) 200lps Scanner 1
+Camera left,190119_010359.eif,4.41kB / 1.72GB,,POSTrack
+
+|START|
+Device,File Name,Date/Time,Latitude,Longitude,Altitude,Roll,Pitch,Yaw,Speed,Distance
+Scanner 1,190119_010353_Scanner_1.rxp,2019-01-19 01:03:53 / 3833.086,-22.43268376deg,148.37624983deg,1188.301m,1.681deg,2.866deg,129.791deg,113.282kn,348494.812m
+Camera left,190119_010359.eif,2019-01-19 01:03:59 / 3839.441,-22.43512173deg,148.37869836deg,1190.295m,2.407deg,4.429deg,131.886deg,112.697kn,348864.312m
+
+|END|
+Device,File Name,Date/Time,Latitude,Longitude,Altitude,Roll,Pitch,Yaw,Speed,Distance
+Scanner 1,190119_010353_Scanner_1.rxp,2019-01-19 01:06:17 / 3977.235,-22.49015500deg,148.43329140deg,1202.614m,2.944deg,3.719deg,132.988deg,122.573kn,357154.625m
+Camera left,190119_010359.eif,2019-01-19 01:06:18 / 3978.638,-22.49075194deg,148.43386190deg,1203.541m,1.832deg,4.043deg,131.897deg,122.420kn,357243.156m
+
+|CAMERA TRIGGER|
+Device,Triggered Images,Lost Exposure Pulses,Lost Images
+Camera left,16,0,0
+
+===Record006_Line7===
+|FILES|
+Device,File Name,File Size,File Status,Configuration
+Scanner 1,190119_010755_Scanner_1.rxp,1.90GB,,1000m 135kn 1000 kHz (100%) 200lps Scanner 1
+Camera left,190119_010801.eif,4.56kB / 1.90GB,,POSTrack
+
+|START|
+Device,File Name,Date/Time,Latitude,Longitude,Altitude,Roll,Pitch,Yaw,Speed,Distance
+Scanner 1,190119_010755_Scanner_1.rxp,2019-01-19 01:07:55 / 4075.245,-22.47370790deg,148.45650418deg,1196.492m,1.599deg,3.374deg,320.876deg,123.758kn,363037.188m
+Camera left,190119_010801.eif,2019-01-19 01:08:01 / 4081.823,-22.47093672deg,148.45370766deg,1190.031m,1.494deg,4.605deg,320.961deg,125.956kn,363457.688m
+
+|END|
+Device,File Name,Date/Time,Latitude,Longitude,Altitude,Roll,Pitch,Yaw,Speed,Distance
+Scanner 1,190119_010755_Scanner_1.rxp,2019-01-19 01:10:16 / 4216.593,-22.41222984deg,148.39552557deg,1180.631m,1.950deg,4.326deg,321.935deg,128.432kn,372300.250m
+Camera left,190119_010801.eif,2019-01-19 01:10:17 / 4217.703,-22.41174043deg,148.39504805deg,1180.535m,1.904deg,4.264deg,322.252deg,128.370kn,372373.281m
+
+|CAMERA TRIGGER|
+Device,Triggered Images,Lost Exposure Pulses,Lost Images
+Camera left,17,0,0
+
+===Record007_Line4===
+|FILES|
+Device,File Name,File Size,File Status,Configuration
+Scanner 1,190119_011248_Scanner_1.rxp,1.99GB,,1000m 135kn 1000 kHz (100%) 200lps Scanner 1
+Camera left,190119_011254.eif,4.66kB / 1.85GB,,POSTrack
+
+|START|
+Device,File Name,Date/Time,Latitude,Longitude,Altitude,Roll,Pitch,Yaw,Speed,Distance
+Scanner 1,190119_011248_Scanner_1.rxp,2019-01-19 01:12:48 / 4368.016,-22.42435275deg,148.37787688deg,1203.000m,0.698deg,3.825deg,130.548deg,113.092kn,381486.500m
+Camera left,190119_011254.eif,2019-01-19 01:12:54 / 4374.392,-22.42679399deg,148.38033191deg,1199.147m,0.414deg,3.664deg,132.199deg,114.758kn,381856.688m
+
+|END|
+Device,File Name,Date/Time,Latitude,Longitude,Altitude,Roll,Pitch,Yaw,Speed,Distance
+Scanner 1,190119_011248_Scanner_1.rxp,2019-01-19 01:15:18 / 4518.466,-22.48563802deg,148.43875169deg,1186.025m,2.807deg,2.766deg,132.265deg,121.538kn,390726.094m
+Camera left,190119_011254.eif,2019-01-19 01:15:19 / 4519.568,-22.48608051deg,148.43922290deg,1185.432m,1.804deg,3.226deg,131.927deg,121.684kn,390794.969m
+
+|CAMERA TRIGGER|
+Device,Triggered Images,Lost Exposure Pulses,Lost Images
+Camera left,17,0,0
+
+===Record008_Line5===
+|FILES|
+Device,File Name,File Size,File Status,Configuration
+Scanner 1,190119_011808_Scanner_1.rxp,1.81GB,,1000m 135kn 1000 kHz (100%) 200lps Scanner 1
+Camera left,190119_011814.eif,4.56kB / 1.74GB,,POSTrack
+
+|START|
+Device,File Name,Date/Time,Latitude,Longitude,Altitude,Roll,Pitch,Yaw,Speed,Distance
+Scanner 1,190119_011808_Scanner_1.rxp,2019-01-19 01:18:08 / 4688.094,-22.48319015deg,148.44595631deg,1183.014m,-1.742deg,3.405deg,319.898deg,137.578kn,401893.781m
+Camera left,190119_011814.eif,2019-01-19 01:18:14 / 4694.598,-22.48019696deg,148.44293339deg,1181.537m,0.871deg,4.309deg,322.293deg,134.668kn,402348.344m
+
+|END|
+Device,File Name,Date/Time,Latitude,Longitude,Altitude,Roll,Pitch,Yaw,Speed,Distance
+Scanner 1,190119_011808_Scanner_1.rxp,2019-01-19 01:20:24 / 4824.542,-22.42142261deg,148.38470746deg,1196.953m,1.375deg,5.002deg,321.182deg,128.385kn,411198.094m
+Camera left,190119_011814.eif,2019-01-19 01:20:25 / 4825.893,-22.42086080deg,148.38413061deg,1197.618m,-1.854deg,3.921deg,320.696deg,128.191kn,411284.062m
+
+|CAMERA TRIGGER|
+Device,Triggered Images,Lost Exposure Pulses,Lost Images
+Camera left,17,0,0
+
+===Record009_Line8===
+|FILES|
+Device,File Name,File Size,File Status,Configuration
+Scanner 1,190119_012251_Scanner_1.rxp,1.17GB,,1000m 135kn 1000 kHz (100%) 200lps Scanner 1
+Camera left,190119_012257.eif,2.85kB / 1.03GB,,POSTrack
+
+|START|
+Device,File Name,Date/Time,Latitude,Longitude,Altitude,Roll,Pitch,Yaw,Speed,Distance
+Scanner 1,190119_012251_Scanner_1.rxp,2019-01-19 01:22:51 / 4971.463,-22.40971058deg,148.40291148deg,1190.395m,3.451deg,2.733deg,132.778deg,116.576kn,419752.094m
+Camera left,190119_012257.eif,2019-01-19 01:22:57 / 4977.825,-22.41221351deg,148.40538734deg,1209.490m,-0.050deg,5.767deg,130.557deg,114.578kn,420128.688m
+
+|END|
+Device,File Name,Date/Time,Latitude,Longitude,Altitude,Roll,Pitch,Yaw,Speed,Distance
+Scanner 1,190119_012251_Scanner_1.rxp,2019-01-19 01:24:19 / 5059.803,-22.44514649deg,148.43795854deg,1187.763m,1.026deg,3.532deg,129.333deg,114.876kn,425084.812m
+Camera left,190119_012257.eif,2019-01-19 01:24:20 / 5060.892,-22.44556774deg,148.43838943deg,1188.155m,0.239deg,3.572deg,128.837deg,114.769kn,425149.156m
+
+|CAMERA TRIGGER|
+Device,Triggered Images,Lost Exposure Pulses,Lost Images
+Camera left,10,0,0
+
+==STATISTICS==
+|INS-GPS|
+Device,Logged Files,Logged Size,Logging Duration Total,Logging Duration Standstill,Logging Distance
+INS-GPS 1,1,20.00MB,0.000s / 0s,0.000s / 0s,0.000s / 0s
+
+|Scanner|
+Device,Logged Files,Logged Size,Logging Duration,Logging Distance
+Scanner 1,9,14.80GB,1111.820s / 18 minutes; 31 seconds,71057.562m
+
+|Camera|
+Device,Logged Images,Logged Size,Logging Time,Logging Distance,Lost Exposure Pulses,Lost Images
+Camera left,130,13.96GB,1062.909s / 17 minutes; 42 seconds,67994.281m,0,0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
